@@ -14,7 +14,7 @@ jobs:
       PY_COLORS: '1'
       ANSIBLE_FORCE_COLOR: '1'    
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@ee0669bd1cc54295c223e0bb666b733df41de1c5 # v2
         with:
           path: "${{ github.repository }}"
-      - uses: gofrolist/molecule-action@v2
+      - uses: gofrolist/molecule-action@608af860d0d95617909fa8065da3ede9f53b1c9f # v2
